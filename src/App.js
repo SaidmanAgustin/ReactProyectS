@@ -1,16 +1,13 @@
 import React from 'react';
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-//import NavBar from './components/NavBar/NavBar';
-//import Blog from './components/paginas/Blog';
-//import Inicio from './components/paginas/Inicio';
-//import Viajes from './components/paginas/Viajes';
+import NavBar from './components/Ficheros/NavBar';
 
 
 function App() {
   return (
-    <><NavBar /></>
+ <div className='App'>
+    <NavBar  /> 
 
+ </div>
   );
 }
 
