@@ -1,7 +1,7 @@
 import React from 'react';
 import CartWidget from '../CartWiget';
 function NavBar () {
-  return   <>
+  return <>
 <ul className="nav justify-content-center">
 
   <li className="nav-item">
@@ -16,8 +16,9 @@ function NavBar () {
   <li className="nav-item">
   <a className="nav-link active" href="#!">Lengua de señas</a>
   </li>
+
 </ul>
-     <CartWidget />
+   <CartWidget />
   </>
 
 }
