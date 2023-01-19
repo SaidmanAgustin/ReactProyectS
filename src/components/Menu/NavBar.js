@@ -1,26 +1,30 @@
 import React from 'react';
 import CartWidget from '../CartWiget';
-function NavBar () {
+import '../Menu/NavBar.css';
+
+function NavBarMenu () {
   return <>
-<ul className="nav justify-content-center">
+  
+ <ul className="nav justify-content-center" >
 
   <li className="nav-item">
-  <a className="nav-link active" href="#!">Inicio</a>
+  <a className="nav-link active" href="./">Inicio</a>
   </li>
   <li className="nav-item">
-  <a className="nav-link active" href="#!">Viajes</a>
+  <a className="nav-link active" href="../paginas/Viajes">Viajes</a>
   </li>
   <li className="nav-item">
-  <a className="nav-link active" href="#!">Blog</a>
+  <a className="nav-link active" href="../paginas/SobreMi">Sobre Mi</a>
   </li>
   <li className="nav-item">
-  <a className="nav-link active" href="#!">Lengua de señas</a>
+  <a className="nav-link active" href="../paginas/LenguaDeSeñas">Lengua de señas</a>
   </li>
 
 </ul>
+
    <CartWidget />
-  </>
+  </>;
 
 }
-export default NavBar;
+export default NavBarMenu;
  
