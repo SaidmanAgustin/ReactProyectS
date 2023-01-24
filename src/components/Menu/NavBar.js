@@ -1,10 +1,10 @@
 import React from 'react';
 import CartWidget from '../CartWiget';
-import '../Menu/NavBar.css';
+import './NavBar.css';
 
 function NavBarMenu () {
   return <>
-  
+  <nav className='NavBarMenu'>
  <ul className="nav justify-content-center" >
 
   <li className="nav-item">
@@ -21,7 +21,7 @@ function NavBarMenu () {
   </li>
 
 </ul>
-
+</nav>
    <CartWidget />
   </>;
 

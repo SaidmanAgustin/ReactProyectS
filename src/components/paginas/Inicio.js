@@ -1,11 +1,9 @@
 import React from "react";
 
-
-
-function LenguaDeSeñas() {
+function Inicio(){
     return(
         <></>
     )
 }
 
-export default LenguaDeSeñas;
+export default Inicio;

@@ -1,5 +1,16 @@
 .NavBarMenu{
-    height: 60px;
-    background-color: brown;
+    height: 50px;
+    background-color: rgb(255, 243, 177);
+    font-family:  Merriweather;
+    box-shadow: 1px 1px 15px  black ;
     
+}    
+.nav-item{
+    margin-right: 2%;
+    text-shadow: 0px 0px 1px black;
+}
+
+.nav-link{
+    color: black;
+  
 }
