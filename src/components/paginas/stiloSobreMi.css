@@ -5,6 +5,7 @@
 }
 
 .TextoSobreMi{
+    display: block;
     text-align: center;
     font-family: Indie Flower;
     margin-top: 4%;

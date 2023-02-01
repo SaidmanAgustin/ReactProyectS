@@ -1,5 +1,6 @@
 import React from "react";
 import './viajes.css';
+import 'animate.css';
 
 function Viajes() {
     return(
@@ -10,24 +11,26 @@ function Viajes() {
                 <section className="IndiceBariloche">
                         
                     </section>
+                    <h4>¿Dónde queda Bariloche?</h4>
                 <section className="DondeQueda">
-                      <h4>¿Dónde queda Bariloche?</h4>
-                        <p className="TextoViajes">
+                      <p className="TextoViajes">
                          Se ubica en la Provincia de Río Negro, en el suroeste de Agentina, más conocido como la patagonia Argentina.
                          En Bariloche, te vas a enamorar por su naturaleza, sus lagos andinos y su cordillera. 
                          Si estás pensando conocer el sur argentino, te recomiendo que comiences por Brc.  
-                        </p>
+                      </p>
                     </section>
+                    <h4>Cómo llegar al centro de Bariloche</h4>
                 <section className="CómoLlegarBariloche">
-                      <h4>Cómo llegar al centro de Bariloche</h4>
+                      
                        <p className="TextoViajes">
                         Obvio, como en todo destino podés ir en taxi o transfer,
                         pero si estás buscando ahorrar y te alojas en el centro de BRC desde el aeropuerto, 
                         tomas un colectivo que tarda aproximadamente 40 minutos y se abona con la tarjeta sube.
                        </p>
-                    </section>               
+                    </section>       
+                    <h4>Imperdibles en el centro de Bariloche</h4>        
                 <section className="ImperdiblesBariloche">
-                  <h4>Imperdibles en el centro de Bariloche</h4>
+                 
                       <p className="TextoViajes">
                        La Catedral Nuestra Señora del Nahuel Huapi, el centro cívico, mamuschka, del turista,
                        rapanui y la feria artesanal municipal son lugares que podes recorrer en una tarde, 
@@ -36,8 +39,9 @@ function Viajes() {
                        los precios no varían mucho entre un local y otro.
                       </p>
                     </section>
+                    <h4>Cuál es la mejor zona para alojarse</h4>
                 <section className="Alojamientos">
-                   <h4>Cuál es la mejor zona para alojarse</h4>
+                   
                    <p className="TextoViajes">
                     Si sos de las personas que le gusta tener todo cerca y te gustaría hacer salidas nocturnas, 
                     no busques más porque la zona céntrica de Bariloche es para vos, podes encontrar bares, supermercados,
@@ -50,16 +54,18 @@ function Viajes() {
 
                    </p>
                     </section>
+                    <h4>Lago Nahuel Huapi</h4>
                 <section className="Lago">
-                  <h4>Lago Nahuel Huapi</h4>
+                  
                   <p className="TextoViajes">
                   Es difícil comenzar a escribir sobre este lago, porque apenas llegas a Brc es el primero que ves, vas al centro y lo volvés a ver, haces una excursión y tienes que atravesarlo, así que mi recomendación es que aprecies cada detalle del mismo. Además, en ciertas ubicaciones tienen paradores tipo playa para disfrutar en una tarde de verano.
                   Un sector tranquilo y con un poco menos de gente, es el sector de la playa centenario y te recomiendo el mirador que se encuentra sobre la Avenida principal 12 de octubre
                   </p>
                     </section>
+                    <h4>¿Cuáles son los mejores cerros de Bariloche que tenés que visitar?</h4>
                 <section className="CerrosBariloche">
-                  <h4>¿Cuáles son los mejores cerros de Bariloche que tenés que visitar?</h4>
-                  <h6>Cerro Campanario</h6>
+                  
+                      <h6>Cerro Campanario</h6>
                   <p className="textoViajes">
                   Este fue uno de mis favoritos y se ubica en Av. Bustillo km 17,5 en la Patagonia Argentina, a 1.050 mts de altura sobre el mar, se puede disfrutar del aire fresco subiendo en aerosilla y con la mejor vista panorámica de todo Bariloche. La montaña, los lagos y los bosques transmiten una paz la cuál tenes que disfrutar durante la mañana, además cuenta con un bonito jardín botánico y una confitería en la cima, pero los precios son un poco elevados, por eso si estás buscando ahorrar podés llevar tu propio desayuno.
                   Para ir desde el centro de Brc, podes llegar en transporte público y te deja en la entrada del cerro, abonas el ticket de la aerosilla que tarda aproximadamente 10 minutos para subir, su horario es de 9:00 a 18:00 hs (último ascenso, 17:30 hs) y como siempre te dejo toda la info de precios (actualizado en octubre 2022) OTRO COLOR 
@@ -68,7 +74,7 @@ function Viajes() {
                   Para residentes de BRC tienen promociones y descuentos
                   </p>
                  
-                  <h6>Cerro Tronador</h6>
+                     <h6>Cerro Tronador</h6>
                   <p className="TextoViajes">
                   Si me preguntan a mí, diría que lo visiten en temporada de invierno, pero existe otro 50% de personas, indicando que la mejor estación para aprovechar la vista de las montañas es en primavera o verano, pero bueno, acá no vamos a hablar de gustos porque podríamos debatir bastante, lo que si les digo es que este lugar hay que visitarlo al menos una vez en la vida, para contemplar la belleza de uno de los glaciares más imponentes de Bariloche. En cuanto a la vestimenta, si vas en invierno anda abrigado, pero no hace falta ropa para esquiar si no vas a realizar ningún deporte. 
                   Además, es uno de los cerros más altos, se ubica en la zona sur de la cordillera de los Andes, en la frontera entre Argentina y Chile. Su nombre se debe a los ruidos que se producen por el desprendimiento de hielo en los glaciares, estás en el medio de la montaña y escuchas un tremendo exabrupto de bullicio como si fuera un volcán, algo loquísimo.
@@ -92,8 +98,9 @@ function Viajes() {
                   Ascenso en vehículo propio $3000 ARS
                   </p>
                     </section>
+                    <h4>Isla Victoria y bosque de los Arrayanes</h4>
                 <section className="IslaYBosque">
-                  <h4>Isla Victoria y bosque de los Arrayanes</h4>
+                  
                   <p className="TextoViajes">
                   Este es un lindo lugar para conectarte con la naturaleza, se puede llegar en lancha que sale desde Puerto Pañuelo hasta Puerto Anchorena. Si contratas una excursión, el tiempo será aproximadamente de 7 hs y durante la embarcación recorreras el famoso Lago Nahuel Huapi, una vez llegado allí vas a poder apreciar la flora y fauna en su máxima expresión. 
                   Presta mucha atención a los árboles como la lenga (Nothofgus pumillo), el coihue (Nothofagus dombeyi), el ñire (Nothofagus antártica) y el arrayán. Ten en cuenta que cuando te encuentres en el medio del bosque rodeado de todos estos árboles, será el momento ideal para descansar y tomar unas buenas fotografías, ya que caminar hasta allí te llevará entre 2-3 hs aproximadamente.
@@ -108,8 +115,9 @@ function Viajes() {
                   Tasa de Embarque $350 ARS.                 
                   </p>
                     </section>
+                    <h4>Puerto Blest y cascada de los cántaros</h4>
                 <section className="PuertoYCascada">
-                  <h4>Puerto Blest y cascada de los cántaros</h4>
+                  
                   <p className="TextoViajes">
                   Para llegar tomas un catamarán desde Puerto Pañuelo, si tenes poco tiempo te recomiendo que aproveches y conozcas todo en un día lo que es Puerto Blest e Isla Victoria, pero si en realidad vas con la idea de descansar y conocer a profundidad cada rincón de la patagonia lo podes hacer en 2 días. 
                   Acá el color del agua cambia un poco y se vuelve verde, durante la navegación presta atención a las cascadas, porqué si leíste toda la guía de Bariloche (que aparezca la guia si clickea) ya sabes que te digo cuales son los lugares más fotografiables. 
@@ -117,8 +125,9 @@ function Viajes() {
                   Cuando fui, solo hacía este tipo de exclusión la empresa Turisur. 
                   </p>
                     </section>
+                    <h4>El homenaje al Che Guevara</h4>
                 <section className="CheGuevara">
-                  <h4>El homenaje al Che Guevara</h4>
+                  
                   <p className="TextoViajes">
                   Por si no sabías, un día el Che Guevara partió con su moto de Buenos Aires hacia Bariloche y de ahí a recorrer América, por eso es que en lago frías se encuentra una réplica de la poderosa. Por ahí el Che, se animó a lo que muchos viajeros aún están indecisos, dejar todo y emprender el viaje de tus sueños, ya sea en moto, bici o motorhome. 
                   </p>
