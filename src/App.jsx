@@ -8,6 +8,9 @@ import Viajes from "./components/paginas/Viajes";
 import LenguaDeSeñas from './components/paginas/LenguaDeSeñas';
 import './App.css';
 
+
+
+
 export default function App(){
   return(
     <BrowserRouter>

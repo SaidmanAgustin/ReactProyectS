@@ -1,14 +1,19 @@
 .ViajesConteiner{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border: 1px, solid rgb(255, 255, 255);
     border-radius: 2px ;
     padding: 5px;
 }
 .ViajesArgentina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 2%;
     
 }
+
 
 h4{
     text-align: center;
@@ -25,13 +30,17 @@ h6{
 
 }
 .TextoViajes{
-   display: inline-block;
+   display: grid;
+   place-items: center;
    width: auto;
    align-items: center;
-   text-align: center;
-   
-  
-  
-    
-     
+   text-align: center;  
+}
+
+.CerrosBariloche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+    flex-direction: row;
 }
