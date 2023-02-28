@@ -16,7 +16,9 @@
 
 
 h4{
+    display: inline-block;
     text-align: center;
+    align-content: center;
     margin-bottom: 1%;
    
     
@@ -30,16 +32,15 @@ h6{
 
 }
 .TextoViajes{
-   display: grid;
-   place-items: center;
+   display: flex;
    width: auto;
    align-items: center;
    text-align: center;  
 }
 
 .CerrosBariloche{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     padding-bottom: 4px;
     flex-direction: row;
