@@ -7,6 +7,7 @@ import SobreMi from "./components/paginas/SobreMi";
 import Viajes from "./components/paginas/Viajes";
 import LenguaDeSeñas from './components/paginas/LenguaDeSeñas';
 import './App.css';
+import ViajesBariloche from './components/paginas/ViajesFireBase';
 
 
 
@@ -19,6 +20,7 @@ export default function App(){
         <Route path="paginas/Inicio" element={<Inicio />} />
         <Route path="paginas/SobreMi" element={<SobreMi />} />
         <Route path="paginas/Viajes" element={<Viajes />} />
+        <Route path="paginas/ViajesFireBase" element={<ViajesBariloche />} />
         <Route path="paginas/LenguaDeSeñas" element={<LenguaDeSeñas />} />
       </Routes>
     </BrowserRouter>
