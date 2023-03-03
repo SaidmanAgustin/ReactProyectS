@@ -14,9 +14,8 @@
     
 }
 
-
 h4{
-    display: inline-block;
+    
     text-align: center;
     align-content: center;
     margin-bottom: 1%;
@@ -24,11 +23,11 @@ h4{
     
 }
 h6{
-    display:inline-block;
+    
     text-align: center;    
     margin-left: 15px;
     margin-top: 10px;
-    align-items: center;
+
 
 }
 .TextoViajes{
