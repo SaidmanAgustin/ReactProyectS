@@ -4,7 +4,7 @@ import CartWidget from '../CartWiget';
 import './NavBar.css';
 
 function NavBarMenu () {
-  return <>
+  return <div>
   
   <nav className='NavBarMenu'>
  <ul className="nav justify-content-center" >
@@ -13,9 +13,6 @@ function NavBarMenu () {
   </li>
   <li className="nav-item">
    <Link className="nav-link active" to="../paginas/viajes">Viajes</Link>
-  </li>
-  <li className="nav-item">
-   <Link className="nav-link active" to="../paginas/viajesFireBase">ViajesBariloche</Link>
   </li>          
   <li className="nav-item">
     <Link className="nav-link active" to="../paginas/SobreMi">Sobre Mi</Link>
@@ -26,7 +23,7 @@ function NavBarMenu () {
 </ul>
 </nav>
    <CartWidget />
-  </>;
+   </div>;
 
 }
 export default NavBarMenu;

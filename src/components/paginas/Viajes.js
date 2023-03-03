@@ -5,7 +5,7 @@ import './viajes.css';
 
 function Viajes() {
     return(
-        <>
+        <div>
           <div className="ViajesConteiner">
             <div className="ViajesArgentina">
               <div className="Bariloche">
@@ -142,7 +142,7 @@ function Viajes() {
             <div className="ViajesColombia"></div>
 
           </div>
-        </>
+        </div>
     )
 }
 
