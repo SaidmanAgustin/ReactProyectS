@@ -13,7 +13,10 @@ function NavBarMenu () {
   </li>
   <li className="nav-item">
    <Link className="nav-link active" to="../paginas/viajes">Viajes</Link>
-  </li>         
+  </li>
+  <li className="nav-item">
+   <Link className="nav-link active" to="../paginas/viajesFireBase">ViajesBariloche</Link>
+  </li>          
   <li className="nav-item">
     <Link className="nav-link active" to="../paginas/SobreMi">Sobre Mi</Link>
   </li>
